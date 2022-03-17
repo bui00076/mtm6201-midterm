@@ -1,0 +1,334 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+}
+h3 {
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+}
+p {
+    font-size: 15px;
+    font-family: 'Comic Neue', cursive;
+}
+/* header */
+.navbar {
+    display: flex;
+}
+nav:hover{
+    background-color: #757575;
+    color: white;
+}
+nav a:hover{
+    background-color: #F5F5F5;
+    color: black;
+}
+.navbar ul {
+    align-items: center;
+    list-style: none;
+    justify-content: end;
+    
+}    
+.navbar li {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 2em;
+    font-family: 'Trocchi', serif;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    margin-right: 5rem;
+    text-align: center;
+}
+.logo {
+    max-height:140px ;
+    margin-left:6.5rem;
+    margin-right: 25rem;
+}
+.navbar a.icon {
+    display: none;
+}
+.main-menu {
+    display: block;
+}
+/* homepage main content*/
+.quotes {
+    font-style: italic;
+    text-align: center;
+}
+.main-image {
+    transition: .4s ease-in-out;
+}
+/* welxome section*/
+.welcome-image {
+    text-align: center;
+    transition: .4s ease-in-out;
+}
+.welcome-content{
+    margin-left: 6.5rem;
+    margin-right: 6.5rem;
+}
+.welcome-header {
+    text-align: center;
+}
+/*home service*/
+.service-header {
+    margin-left: 6.5rem;
+}
+.service-box {
+    display: flex;
+    margin-bottom: 30px;
+}
+.service-box1 {
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 30px;
+}
+.service-box2 {
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 30px;
+}
+.service-box3 {
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 30px;
+}
+.service-content {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* resize image */
+.service-image1 {
+    width: 333px;
+    height: 333px;
+}
+/*resize image*/
+.service-image2 {
+    width: 333px;
+    height: 333px;
+}
+/*resuze image*/
+.service-image3 {
+    width: 333px;
+    height: 333px;
+}
+/* footer*/
+.footer-top {
+    background-color: #F5F5F5;
+    color: black;
+
+}
+.about-footer {
+    display: flex;
+    flex-direction: row;
+}
+.footer-text {
+    font-family: 'Comic Neue', cursive;
+    flex: 1;
+    margin-left: 150px;
+}
+.footer-text a {
+    color: black;
+}
+.footer-hour {
+    flex: 1;
+}
+.hour-text {
+    font-family: 'Comic Neue', cursive;
+}
+.footer-social {
+    color: black;
+    font-size: 20px;
+    flex: 1;
+}
+.footer-social a {
+    color: black;
+}
+.footer-bottom {
+    background-color: #505050;
+    color: white;
+    text-align: center;
+}
+.footer-bottom-text {
+    padding: 15px;
+    margin: 0px;
+}
+/*contact page*/
+.contact-text {
+    font-family: 'Open Sans', sans-serif;
+}
+.contact-container {
+    display: flex;
+}
+form input, .form input, .form-control {
+    height: 50px;
+    line-height: 30px;
+    border: 1px solid #eee;
+    padding: 0 20px;
+    outline: none;
+}
+.contact-left {
+    flex-basis: 60%;
+    margin-top: 6.5rem;
+    margin-left: 6.5rem;
+}
+.contact-right {
+    flex-basis: 40%;
+}
+textarea {
+    height: 220px;
+}
+.submit-button {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    height: 60px;
+    line-height: 50px;
+    padding: 0 20px;
+    text-indent: 0;
+    outline: none;
+    background-color: #757575;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* booking page*/
+.container-form {
+    margin-left: 6.5rem;
+    margin-top: 6.5rem;
+}
+.booking-button {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    height: 60px;
+    padding: 0 20px;
+    text-indent: 0;
+    outline: none;
+    background-color: #757575;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px
+   
+}
+/*media query*/
+@media screen and (max-width:720px) {
+    body {
+        font-size: 10px;
+    }
+    h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: 15px;
+        font-family: 'Fredoka', sans-serif;
+    }
+    h3 {
+        font-size: 15px;
+        font-family: 'Fredoka', sans-serif;
+    }
+    p {
+        font-size: 10px;
+        font-family: 'Comic Neue', cursive;
+    }
+    .narbar li {
+        display: block;
+        text-align: center;
+        padding: 1.5rem 0;;
+    }
+    .navbar a {
+        margin-right: 1rem;
+        text-align: center;
+        font-size: 10px;
+    } 
+    .navbar a.icon {
+        background: #505050;
+        display: block;
+        font-size: 20px;
+        color: #eee;
+        padding: 10px;
+        content:"";
+        float: right;
+      }
+    /*.main-menu {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }*/
+    .logo {
+        max-height:50px ;
+        margin-left:10px;
+        margin-right: 10px;
+    }
+
+    .main-menu a {
+        padding: 14px 16px;
+    }
+    .service-box {
+        flex-direction: column;
+    }
+    .service-box1 {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .service-box2 {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .service-box3 {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .service-content {
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .contact-container {
+        flex-direction: column;
+    }
+    .contact-left {
+        flex-basis: 0%;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .send-message {
+        width: 100%;
+    }
+    .booking-button {
+        font-size: 10px;
+        height: 30px;
+        padding: 0 10px;
+        margin-top: 10px;
+        margin-bottom: 10px
+       
+    }
+    .submit-button {
+        font-size: 10px;
+        height: 40px;
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    form input, .form input, .form-control {
+        height: 30px;
+        padding: 0 10px;
+    }
+    textarea {
+        height: 100px;
+    }
+}

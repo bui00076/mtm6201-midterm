@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital@0;1&family=Fredoka:wght@300&family=Open+Sans:ital,wght@0,300;1,300;1,400&family=Trocchi&display=swap" rel="stylesheet">
+  <title>S Spa Nails & Lash</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/75f81a7c7a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <!--navbar with logo and social media icon-->
+            <div class="navbar">
+                <img class="logo" src="images/logo.png" alt="logo">
+            <nav>
+                <ul>
+                    <div class="toggle">
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                          </a>
+                        </div>
+                    <div class="main-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index1.html">Booking </a></li>
+                    <li><a href="index2.html">Contact</a></li>
+                    <!--using icon-->
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                   </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="contact-container">
+        <div class="contact-left">
+            <h2 class="contact-text">Send Message</h2>
+            <form class="send-message">
+                <label for="fname">Your Name:</label><br>
+                <input type="text" id="fname" name="fname" style="width: 70%;"><br>
+                <label for="email">Your Email:</label><br>
+                <input type="text" id="email" name="email" style="width: 70%;"><br>
+                <label for="subject">Your Subject:</label><br>
+                <input type="text" id="subject" name="subject" style="width: 70%;"><br>
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" style="width: 70%;" ></textarea> <br>
+                <button class="submit-button" type="submit">Submit message</button>
+                </form>
+        </div>
+        <div class="contact-left">
+            <div class="location">
+                <h2 class="contact-text">Map</h2>
+                  <div class="mapEmbed">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2807.870693679337!2d-75.70008418444901!3d45.27062457909906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccde3709d84be61%3A0xeb0de7d8a3e83586!2sS%20Spa%20Nails%20%26%20Lash!5e0!3m2!1sen!2sca!4v1647478038569!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
+                </div>              
+        </div>
+    </div>
+       <!--footer-->
+    <footer class="footer-wrapper">
+        <div class="footer-top">
+            <div class="about-footer">
+                <aside class="footer-text">
+                <h3> S Spa Nails & Lash</h3>
+                <p>665 River Rd, Gloucester <br>Ottawa, ON <br> K1V 2G2</p>
+                <p>
+                    <a href="#">infor@sspaottawa.ca</a>
+                </p>
+                <p>
+                    <a href="#">613-822-8272</a>
+                </p>
+                </aside>
+                <aside class="footer-hour">
+                    <h3> Hours</h3>
+                    <div class="hour-text">
+                    <div class="col-2" content="Mon-Fri 10 am - 7 pm">
+                        <div class="col-lef">Mon-Fri:</div>
+                        <div class="col-right">10am - 7pm</div>
+                    </div>
+                    <div class="col-2"  content="Sat 9:30 am - 6 pm">
+                        <div class="col-lef">Sat:</div>
+                        <div class="col-right">9:30am - 6pm</div>
+                    </div>
+                    <div class="col-2"  content="Sun 11 am - 5 pm">
+                        <div class="col-lef">Sun:</div>
+                        <div class="col-right">11am - 5pm</div>
+                    </div>
+                    </div>
+                </aside>
+                <aside class="footer-social">
+                    <h3>Social Media</h3>
+                    <a  class="social-icons-facebook" href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a  class="social-icons-instagram" href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </aside>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="footer-bottom-text">&copy;Copyright by S Spa Nails and Lash. All rights reserved</p>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </div>
+</body>
+</html>
