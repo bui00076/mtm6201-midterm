@@ -22,9 +22,6 @@ p {
 .navbar {
     display: flex;
 }
-nav:hover{
-    color: white;
-}
 nav a:hover{
     background-color: #757575;
     color: white;
