@@ -23,12 +23,11 @@ p {
     display: flex;
 }
 nav:hover{
-    background-color: #757575;
     color: white;
 }
 nav a:hover{
-    background-color: #F5F5F5;
-    color: black;
+    background-color: #757575;
+    color: white;
 }
 .navbar ul {
     align-items: center;
